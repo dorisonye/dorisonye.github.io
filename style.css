@@ -1,0 +1,44 @@
+/* This styles the whole page */
+body {
+    font-family: Arial;
+    margin: 20px;
+    background-color: #f4f4f4;
+}
+
+/* Navigation bar */
+nav a {
+    margin: 10px;
+    text-decoration: none;
+    color: blue;
+}
+
+/* Hover effect */
+nav a:hover {
+    color: red;
+}
+
+/* Layout using flex */
+nav {
+    display: flex;
+    background-color: white;
+    padding: 10px;
+}
+
+/* Headings */
+h1 {
+    color: darkblue;
+}
+
+/* Box styling */
+section {
+    border: 1px solid black;
+    padding: 10px;
+    margin-top: 10px;
+}
+table, th, td {
+  border: 1px solid black;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
