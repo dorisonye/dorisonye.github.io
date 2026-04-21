@@ -1,50 +1,98 @@
 /* This styles the whole page */
 body {
-    font-family: Arial;
-    margin: 20px;
-    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f0f2f5;
+}
+
+/* Center content */
+main {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
 }
 
 /* Navigation bar */
-nav a {
-    margin: 10px;
-    text-decoration: none;
-    color: blue;
-}
-
-/* Hover effect */
-nav a:hover {
-    color: red;
-}
-
-/* Layout using flex */
 nav {
     display: flex;
+    justify-content: center;
+    background-color: #1e3a8a;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Header */
+header {
+    background-color: #1e3a8a;
+    color: white;
+    text-align: center;
+    padding: 30px 10px;
+}
+
+/* Section styling (card look) */
+section {
     background-color: white;
-    padding: 10px;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
 }
 
 /* Headings */
-h1 {
-    color: darkblue;
+h1, h2, h3 {
+    color: #1e3a8a;
 }
 
-/* Box styling */
-section {
-    border: 1px solid black;
-    padding: 10px;
+/* Lists */
+ul {
+    padding-left: 20px;
+}
+
+/* Tables */
+table {
+    border-collapse: collapse;
+    width: 100%;
     margin-top: 10px;
 }
+
 table, th, td {
-  border: 1px solid black;
+    border: 1px solid #ccc;
 }
-table {
-  border-collapse: collapse;
-  width: 100%;
+
+th {
+    background-color: #e5e7eb;
 }
+
+/* Images */
+img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #1e3a8a;
+    color: white;
+    margin-top: 20px;
+}
+
+/* Quiz results box */
 #results {
     margin-top: 20px;
-    padding: 10px;
+    padding: 15px;
     background-color: white;
-    border: 1px solid black;
+    border-left: 5px solid #1e3a8a;
 }
